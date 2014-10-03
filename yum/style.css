@@ -60,7 +60,11 @@ table {
 
 
 
-
+p {
+    font-size:15px;	
+	font-family:Georgia;
+    text-align: left;
+}
 
 h1 {
     font-family:Helvetica;
@@ -74,22 +78,7 @@ h2 {
     font-size:22px;
 	padding:7px;
 	text-align:left;
-}
-
-.ingr {
-	display:inline;
-	float:left;
-	font-size:14px;
-	padding:7px;
-	display:inline;
 	
 }
 
-.dir {
-	display:inline;
-		float:left;
-	font-size:14px;	
-	padding:5px;
 
-	
-}
