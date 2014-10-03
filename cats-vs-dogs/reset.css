@@ -142,4 +142,9 @@ img.center
 		margin-top:30px;
 		margin-bottom:25px;
     }
+
+a:link {
+	    color: #000000;
+	    text-decoration: none;
+	}
   
