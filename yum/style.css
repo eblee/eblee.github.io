@@ -54,3 +54,42 @@ table {
 /* END RESET */
 
 
+
+
+
+
+
+
+
+
+h1 {
+    font-family:Helvetica;
+    font-size:30px;
+	padding:7px;
+	text-align:left;
+}
+
+h2 {
+    font-family:Helvetica;
+    font-size:22px;
+	padding:7px;
+	text-align:left;
+}
+
+.ingr {
+	display:inline;
+	float:left;
+	font-size:14px;
+	padding:7px;
+	display:inline;
+	
+}
+
+.dir {
+	display:inline;
+		float:left;
+	font-size:14px;	
+	padding:5px;
+
+	
+}
