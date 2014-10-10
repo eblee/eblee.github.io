@@ -121,8 +121,7 @@ a {
 
   
 #menu li {
-  float:center;
-  display:inline;
+  display:inline-block;
   padding:7px;
   text-transform:uppercase;
   font-family:Georgia;
@@ -161,7 +160,7 @@ a {
   
   img.logo {
 	position:relative; 	  
-	float:center;
+    display:inline-block;
 	right:35%;
 	left:35%;
 	margin-top:35px;
