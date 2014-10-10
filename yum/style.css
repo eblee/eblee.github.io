@@ -64,24 +64,56 @@ p {
     font-size:15px;	
 	font-family:Georgia;
     text-align: left;
+	
 }
 
 h1 {
     font-family:Helvetica;
     font-size:30px;
 	padding:7px;
+	margin:10px;
 	text-align:left;
+    margin-left:30px;
 }
 
 h2 {
     font-family:Helvetica;
     font-size:22px;
-	padding:7px;
 	text-align:left;
+    margin-bottom:10px;
 	
 }
 
-#link-one {
-	margin-top:15px;	
-	margin-bottom:10px;
+a {
+    position:relative;
+    float:left;
+	right:180px;
+	top:500px;
+	margin:20px 5px;
 }
+
+#one {
+  line-height:20px;
+  position:relative;
+  float:left;
+  width:450px;
+  margin:10px 40px;
+}
+
+#two {
+  position:relative;
+  float:left;
+  width:500px;
+  margin:10px 10px;
+  right:230px;
+
+}
+
+
+#two li{
+	line-height:20px;
+	margin:10px;
+}
+
+
+
