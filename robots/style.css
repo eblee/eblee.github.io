@@ -50,3 +50,94 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
+h2 {
+	font-family:Helvetica;
+	font-size:25px;
+	padding:3px;
+	margin:5px;
+}
+
+
+p {
+	font-family:Helvetica;
+	font-size:10px;
+	padding:3px;
+	margin:5px;
+}
+
+
+
+
+#menu-wrapper {
+	margin:10px;
+	border-width:5px;
+	background-color:brown;
+	padding:7px;
+
+}
+
+
+#main-menu li {
+  float:center;
+  display:inline;
+  padding:7px;
+  margin:5px;
+  text-transform:uppercase;
+  font-family:Helvetica;
+  font-size:20px;
+  text-align: center
+  
+}  
+
+#main-menu a {
+    text-decoration: none;	
+	color: #ffffff;
+}
+
+#top-nav a {
+	float:right;
+	position:relative;
+	top:10px;
+	right:10px;
+    text-decoration: none;
+	margin:6px;		
+}
+
+
+#page h1 {
+	font-family:Helvetica;
+	font-size:50px;
+	padding:3px;
+	margin:5px;
+}
+
+#sidebar h1 {
+	font-size:25px;	
+}
+
+#page {
+	width:450px;
+}
+
+
+img {
+	padding:3px;
+	margin:5px;
+}
+
+
+#sidebar {
+	position:relative;
+	float:right;
+	bottom:330px;
+	right:150px;
+}
