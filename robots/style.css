@@ -59,6 +59,9 @@ table {
 
 
 
+
+
+
 h2 {
 	font-family:Helvetica;
 	font-size:25px;
@@ -140,5 +143,18 @@ img {
 	float:right;
 	bottom:330px;
 	right:150px;
+}
+
+#footer-contact {
+	float:left;
+	width:100px;
+	
+}
+
+
+#footer-follow {
+	float:right;
+	width:100px;
+	
 }
 
