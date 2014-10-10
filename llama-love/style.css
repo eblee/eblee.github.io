@@ -53,3 +53,48 @@ table {
 /* -----------------END RESET---------------- */
 
 
+p {
+  font-family:Helvetica;
+  font-size:10px;
+  margin:10px;
+
+}
+
+h1 {
+    font-family:Helvetica;
+    font-size:20px;
+    margin:10px;
+}
+
+
+h2 {
+    font-family:Helvetica;
+    font-size:15px;
+    margin:10px;
+}
+
+#main-content {
+  position:relative;	
+  float:left;
+  width:350px;
+  left:300px;
+  margin:10px 10px;
+	
+}
+
+
+#othercontent {
+  position:relative;	
+  float:right;
+  width:350px;
+  right:300px;
+  margin:10px 10px;
+	
+}
+
+
+img {  
+	margin:10px 10px;
+	
+}
+
