@@ -113,95 +113,49 @@ table {
 /* -----------------END RESET---------------- */
 
 
-p {
-  font-family:Helvetica;
-  font-size:13px;
-  margin:10px;
 
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+	position:relative;
+	width:65%;
+	height:500px;
+	margin: 0 auto;
+	top:50px;
 }
 
-h1 {
-    font-family:Helvetica;
-    font-size:25px;
-    margin:10px;
-}
 
-
-h2 {
-    font-family:Helvetica;
-    font-size:18px;
-    margin:10px;
-}
 
 #main-content {
-  position:relative;	
+  position:absolute;	
   left:20px;
-  width:450px;
-  left:200px;
-  margin:10px 10px;
+  width:400px;
+  padding:10px;
 	
 }
 
 
 #othercontent {
-  position:relative;	
-  float:right;
-  width:450px;
-  right:200px;
-  margin:10px 10px;
-	
+  position:absolute;	
+  width:400px;
+  right:20px;
+  padding:10px;	
 }
 
 
-img {  
-	margin:10px 10px;
-	width:200px;
-	padding:4px;
+img {
 	float:left;
-	display:inline;
-	
-}
-
-
-
-h1 {
-    font-family:Helvetica;
-    font-size:25px;
-    margin:10px;
-}
-
-
-h2 {
-    font-family:Helvetica;
-    font-size:18px;
-    margin:10px;
-}
-
-#main-content {
-  position:relative;	
-  float:left;
-  width:470px;
-  left:200px;
-  margin:50px 10px;
-	
-}
-
-
-#othercontent {
-  position:relative;	
-  float:right;
-  width:470px;
-  right:200px;
-  margin:50px 10px;
-	
-}
-
-
-img {  
-	margin:10px 10px;
+	margin:10px;
 	padding:4px;
-	float:left;
-	display:inline;
-	
 }
-
+ 
