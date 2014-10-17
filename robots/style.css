@@ -62,99 +62,195 @@ table {
 
 
 
-h2 {
-	font-family:Helvetica;
-	font-size:25px;
-	padding:3px;
-	margin:5px;
+#site-wrapper {
+    background-color:#ecf2d5;
+	position:relative;
+	width:100%;
+
 }
-
-
-p {
-	font-family:Helvetica;
-	font-size:10px;
-	padding:3px;
-	margin:5px;
-}
-
-
 
 
 #menu-wrapper {
-	margin:10px;
+	position:absolute;
 	border-width:5px;
 	background-color:brown;
-	padding:7px;
+	height:45px;
+	width:100%;
 
 }
 
 
+#top-nav {
+	text-align:right;
+	margin:0px 20px;
+	
+}
+
+#top-nav a {
+    color:brown;
+	text-decoration: none;
+}
+
+
+
+
+#main-menu {
+    padding:5px;
+    margin:6px 0px 0px 0px ;
+	
+}
+
+
+
 #main-menu li {
-  float:center;
-  display:inline;
-  padding:7px;
-  margin:5px;
-  text-transform:uppercase;
-  font-family:Helvetica;
-  font-size:20px;
-  text-align: center
-  
+    float:left;
+    text-transform:uppercase;
+    font-family:Helvetica;
+    font-size:20px;
+	margin-top:3px;
+	margin-right:20px;
+
+
 }  
+
+
+#main-menu ul {
+	margin-left:10%;
+	
+}
+
 
 #main-menu a {
     text-decoration: none;	
 	color: #ffffff;
+	padding:5px;
+	
+	
 }
 
-#top-nav a {
-	float:right;
-	position:relative;
-	top:10px;
-	right:10px;
-    text-decoration: none;
-	margin:6px;		
+
+
+
+
+#page {
+    position:absolute;
+    top:30px;
+    left:10%;
+	width:420px;
+	padding:10px;
 }
 
+#page p {
+	font-family:Helvetica;
+	font-size:14px;
+}
 
 #page h1 {
 	font-family:Helvetica;
-	font-size:50px;
-	padding:3px;
-	margin:5px;
-}
-
-#sidebar h1 {
-	font-size:25px;	
-}
-
-#page {
-	width:450px;
+	font-size:35px;
 }
 
 
-img {
-	padding:3px;
-	margin:5px;
+#page h2 {
+	font-family:Helvetica;
+	font-size:20px;
+	margin-top:7px;	
+	margin-bottom:7px;	
+}
+
+
+#content-wrapper {
+	position:absolute;
+	width:100%;
+	top:200px;
+	height:620px;
+	
 }
 
 
 #sidebar {
-	position:relative;
-	float:right;
-	bottom:330px;
-	right:150px;
+	position:absolute;
+	width:400px;	
+	left:45%;
+	top:30px;
+	padding:45px 0px 0px 0px;
+	height:430px;
+
 }
 
-#footer-contact {
-	float:left;
-	width:100px;
+
+#sidebar img {
+	width:230px;
+	margin:10px 0px 0px 0px;
+}
+
+
+#sidebar h1 {
+	font-family:Helvetica;
+	font-size:20px;
+	margin:0px 0px 4px 10px;
+}
+
+#sidebar a {
+	font-family:Helvetica;
+	font-size:14px;
+	margin:10px;
+    text-decoration: none;	
+	color:brown;
+	padding:5px;
+}
+
+#footer-wrapper {
+	position:absolute;
+	width:100%;
+    background-color:brown;	
+	top:750px;	
+	height:120px;
 	
 }
+
+
+#footer-contact {
+	position:absolute;
+	width:150px;
+	left:150px;
+		
+}
+
+
+#footer-contact h1{
+	font-family:Helvetica;
+	font-size:18px;
+	margin:10px 0px 0px 0px;
+		
+}
+
+#footer-contact p{
+	font-family:Helvetica;
+	font-size:13px;
+	margin:4px 0px 0px 0px;		
+}
+
 
 
 #footer-follow {
-	float:right;
-	width:100px;
-	
+	position:absolute;
+	width:400px;
+	left:700px;
+		
 }
 
+#footer-follow li {
+    float:left;
+	margin-top:3px;
+	margin-right:10px;
+	padding:5px;
+
+}  
+
+#footer-follow h1{
+	font-family:Helvetica;
+	font-size:18px;
+	margin:10px 0px 0px 0px;
+		
+}
