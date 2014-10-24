@@ -61,11 +61,23 @@ table {
 
 
 
+.robotlink {
+	position:absolute;
+	bottom:300px;
+}
+
+
+.robotlogo {
+	position:absolute;
+	left:10%;
+}
+
 
 #site-wrapper {
     background-color:#ecf2d5;
 	position:relative;
 	width:100%;
+	height:170px;
 
 }
 
@@ -90,7 +102,6 @@ table {
     color:brown;
 	text-decoration: none;
 }
-
 
 
 
@@ -127,8 +138,6 @@ table {
 	
 	
 }
-
-
 
 
 
