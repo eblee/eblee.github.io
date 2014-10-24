@@ -61,15 +61,13 @@ table {
 
 
 
-.robotlink {
-	position:absolute;
-	bottom:300px;
-}
-
-
-.robotlogo {
-	position:absolute;
-	left:10%;
+#wholecontent {
+	position:relative;
+	height:600px;
+	width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+	
 }
 
 
@@ -125,10 +123,6 @@ table {
 }  
 
 
-#main-menu ul {
-	margin-left:10%;
-	
-}
 
 
 #main-menu a {
@@ -144,7 +138,6 @@ table {
 #page {
     position:absolute;
     top:30px;
-    left:10%;
 	width:420px;
 	padding:10px;
 }
@@ -180,7 +173,7 @@ table {
 #sidebar {
 	position:absolute;
 	width:400px;	
-	left:45%;
+	left:600px;
 	top:30px;
 	padding:45px 0px 0px 0px;
 	height:430px;
@@ -222,7 +215,7 @@ table {
 #footer-contact {
 	position:absolute;
 	width:150px;
-	left:150px;
+	margin:5px 5px;
 		
 }
 
@@ -245,7 +238,7 @@ table {
 #footer-follow {
 	position:absolute;
 	width:400px;
-	left:700px;
+	left:600px;
 		
 }
 
