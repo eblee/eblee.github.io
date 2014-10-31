@@ -179,14 +179,16 @@ img {
 }
 
 
-@media screen and (max-width:600px) {
-  #boxone { float:none; width:98%; margin:0 1%; }
-  #boxtwo { float:none; width:98%; margin:0 1%; }
-  #footer { float:none; width:98%; margin:0 1%; }
+
+@media screen and (max-width:700px) {
+  #boxone { float:none; width:70%; margin:0 1%; }
+  #boxtwo { float:none; width:70%; margin:0 1%; }
+  #footer { float:none; width:70%; margin:0 1%; }
+  #menu { float:none; width:70%; margin:0 1%; }  
   
-  h1 { font-size:3em; }
-  img { max-width:100%; }
-  p { font-size:1em;}
+  h1 { font-size:2em; }
+  img { max-width:40%; }
+  p { font-size:.5em;}
 }
   
 
