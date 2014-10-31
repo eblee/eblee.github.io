@@ -177,3 +177,17 @@ img {
    margin:10px 20px;
 
 }
+
+
+@media screen and (max-width:600px) {
+  #boxone { float:none; width:98%; margin:0 1%; }
+  #boxtwo { float:none; width:98%; margin:0 1%; }
+  #footer { float:none; width:98%; margin:0 1%; }
+  
+  h1 { font-size:3em; }
+  img { max-width:100%; }
+  body { font-size:0.5em; }
+  p { font-size:1em;}
+}
+  
+
