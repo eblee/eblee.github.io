@@ -54,6 +54,12 @@ table {
 
 
 
+header {
+	width:100%;
+    margin:0 auto;
+	padding:5px;
+	font-size:50px;
+}
 
 
 
@@ -94,7 +100,7 @@ a {
 
 
 #work img {
-	width: 600px;
+	width: 650px;
 	height: 400px;
 	
 }
