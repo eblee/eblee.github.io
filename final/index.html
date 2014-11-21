@@ -4,6 +4,50 @@
       <title>Esther Lee</title>
       <link rel="stylesheet" type='text/css' href="style.css" />
 
+<script src="smooth/lib/jquery/jquery.js"></script>
+<script src="smooth/src/jquery.smooth-scroll.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      $('ul.mainnav a').smoothScroll();
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('#change-speed').on('click', function() {
+        var $p1 = $('ul.mainnav a').first(),
+            p1Opts = $p1.smoothScroll('options') || {};
+
+        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+        $p1.smoothScroll('options', p1Opts);
+      });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '#findme'
+        });
+        return false;
+      });
+      $('button.scrollhorz').click(function() {
+        $.smoothScroll({
+          direction: 'left',
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '.horiz'
+        });
+        return false;
+      });
+
+    });
+
+  </script>
+
   </head>
   <body>
 	  <header>
@@ -13,7 +57,7 @@
 
 	<div id="menu">
 		<nav>
- 	   		<ul>
+ 	   		<ul class="mainnav">
    		 		<li><a href="#work">work</a></li>
     			<li><a href="#about">about</a></li>
    			 	<li><a href="#contact">contact</a></li>
@@ -26,12 +70,12 @@
   			Work
    	   </h1>
 	  	 <p>
-	   		 <img src="work/booklet.jpg">
-			 <img src="work/recipe.jpg">
-	   		 <img src="work/hierarchy.jpg">
-			 <img src="work/letterform.jpg">
-	   		 <img src="work/opposites.jpg">
-			 <img src="work/process.jpg">
+	   		 <img src="work/booklet.jpg" alt="booklet">
+			 <img src="work/recipe.jpg" alt="recipe">
+	   		 <img src="work/hierarchy.jpg" alt="hierarchy">
+			 <img src="work/letterform.jpg" alt="letterform">
+	   		 <img src="work/opposites.jpg" alt="opposites">
+			 <img src="work/process.jpg" alt="process">
 	   	 </p>
 	</div>
 
