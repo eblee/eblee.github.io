@@ -54,12 +54,8 @@ table {
 
 
 
-header {
-	width:100%;
-    margin:0 auto;
-	padding:5px;
-	font-size:50px;
-}
+
+
 
 
 
@@ -67,21 +63,40 @@ body {
 	width:100%;
 }
 
-nav {
-	border-width: 4px;
-    margin:0 auto;	
-    padding:5px;
-	height:40px;   
-	font-color:black;
+header {
+	width:450px;
+    margin:0 auto;
+	display:block;
+	padding:5px;
+	font-size:100px;
 }
 
+nav {
+    margin:0 auto;	
+    padding:10px;
+	height:40px;   
+	width:300px;
+	font-color:black;
+	
+	
+}
+
+ul{
+    margin:0 auto;
+	display:block;
+	width:300px;
+	height:40px;
+
+}
 
 li {
     float:left;
     margin:0 auto;
+    margin:10;
     padding:7px;
     text-transform:uppercase;
     font-size:15px;
+
 }  
 
 
@@ -93,16 +108,18 @@ a {
 
 #work {
 	overflow:hidden;
-	width: 100%;
-	height:1255px;
+	width: 1300px;
+	height:1400px;
+	display:block;
+    margin:0 auto;
 
 }
 
 
 #work img {
-	width: 650px;
+	width: 600px;
 	height: 400px;
-	
+	margin-left:30px;
 }
 
 img:hover {
@@ -111,16 +128,16 @@ img:hover {
 
 #about {
 	width:100%;
-    margin:0 auto;
+	height:100px;
 	padding:5px;
 	background-color:#303030;
 	color:white;
 }
 
 #contact {
-    margin:0 auto;
 	padding:5px;
 	width:100%;
+		height:200px;
 }
 
 
@@ -138,9 +155,12 @@ p {
 
 footer {
 	width: 100%;
-    margin:5px;
+	height:50px;
 	padding:5px;
 	background-color:#303030;
 	color:white;
+	font-size:14px;
 }
+
+
 
