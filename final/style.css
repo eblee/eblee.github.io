@@ -60,37 +60,66 @@ table {
 
 
 body {
+	background-color: #151515;
 	width:100%;
-}
-
-header {
-	width:310px;
-    margin:0 auto;
-	padding:40px 10px 10px 10px;
-	font-size:70px;
+	overflow-x:hidden;
 
 }
 
-nav {
-	position:fixed;
-	top:20px;
-    margin:0 auto;	
-    padding:10px;
-	height:40px;   
-	width:500px;
+h1 {
+	font-size:30px;
+	margin:3px;
+	padding:5px;
+	color: #FFFFFF;
+}
 
+p {
+	margin:3px;
+	padding:5px;
+	font-size:18px;
+	color: #FFFFFF;
+}
+
+footer {
+	width: 100%;
+	height:50px;
+	padding:5px;
+	background-color: #FFFFFF;
 	
 }
 
-#menu:hover {  
-    border: 1px solid #E0E0E0;  
-    background: #F4F4F4;  
+
+a {
+	text-decoration: none;	
+	color: #FFFFFF;
+}
+
+
+
+
+#menu {
+	background-color: #FFFFFF;
+	position:fixed;
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	top:0px;
+	opacity: .9;
 
 }
 
-ul{
-    margin:0 auto;
+
+
+nav {
+	height:40px;   
+	width:500px;
+	position:absolute;
+	right:2%;	
+	
 }
+
+
 
 li {
     float:left;
@@ -111,11 +140,9 @@ li {
 
 }
 
-a {
-	text-decoration: none;	
-	color:#000000;
+#menu a {
+	color: #000000;
 }
-
 
 #work {
 	overflow:hidden;
@@ -123,6 +150,7 @@ a {
 	height:1400px;
 	display:block;
     margin:0 auto;
+	padding-top:10%;
 
 }
 
@@ -131,23 +159,31 @@ a {
 	width: 600px;
 	height: 400px;
 	margin-left:30px;
+	margin-bottom:30px;
 }
 
-img:hover {
-    opacity: .5;
-}
+
 
 #about {
 	width:100%;
 	height:110px;
 	padding:5px;
-	background-color:#303030;
-	color:white;
+	background-color: #FFFFFF;
+
+}
+
+#about p {
+	color: #000000;
+}
+
+
+#about h1 {
+	color: #000000;
 }
 
 #aboutstuff {
 	position:absolute;
-	top:1600px;
+	top:1550px;
 	left:5%;
 }
 
@@ -157,30 +193,48 @@ img:hover {
 	height:200px;
 }
 
+
 #contactstuff {
 	position:absolute;
-	top:1730px;
+	top:1700px;
 	left:5%;
 }
 
-h1 {
-	font-size:30px;
-	margin:3px;
-	padding:5px;
+
+#info{
+	position:absolute;
+	width:300px;
+	left:10%;
+	top:87px;
+	
 }
 
-p {
-	margin:3px;
-	padding:5px;
-	font-size:18px;
+
+#otherinfo{
+	position:absolute;
+	width:300px;
+	left:40%;
 }
 
-footer {
-	width: 100%;
+#emailicon img{
+	width:50px;
 	height:50px;
-	padding:5px;
-	background-color:#303030;
-	color:white;
+	position:absolute;
+	top:60px;
+}
+
+
+#linkicon img{
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:40%;
+	top:90px;
+}
+
+#rights p {
+	color: #000000;
+	font-size:12px;
 }
 
 
@@ -188,9 +242,8 @@ footer {
 	height:35px;
 	width:350px;
 	position:absolute;
-	top:1920px;
+	top:1995px;
 	left:5%;
-	font-size:9px;
-	
+	top:1880px;
 }
 
