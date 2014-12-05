@@ -100,6 +100,9 @@ html[xmlns] .clearfix { display: block; }
 
 
 
+
+
+
 h1 {font-family: 'league_gothicregular';
 	font-size:30px;
 	margin-bottom:7px;
@@ -123,6 +126,18 @@ h1 {font-family: 'league_gothicregular';
 	padding:5px;
 	margin:0 auto;
 	width:450px;
+
+}
+
+
+#logo h1 {
+	font-family: 'league_gothicregular';
+	font-size:100px;
+}
+
+
+#logo h2 {
+	font-size:70px;
 }
 
 nav {
@@ -166,6 +181,18 @@ img {
 }
 
 
+#container {
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+}
+
+#containertwo {
+	width:1000px;
+	height:60px;
+	margin:0 auto;
+}
+
 #boxone {
    float:left;
    width:450px;
@@ -186,7 +213,7 @@ img {
 #footleft {
    float:left;
    width:270px;
-   margin:10px 15px;
+   margin:10px;
 }
 
 
@@ -194,21 +221,27 @@ img {
    float:right;
    width:240px;
    text-align:right;
-   margin:10px 20px;
+   margin:10px;
 
 }
 
 
-
 @media screen and (max-width:700px) {
-  #boxone { float:none; width:70%; margin:0 1%; }
-  #boxtwo { float:none; width:70%; margin:0 1%; }
-  #footer { float:none; width:70%; margin:0 1%; }
-  #menu { float:none; width:70%; margin:0 1%; }  
+  #boxone { float:none; width:45%; margin:0 1%; }
+  #boxtwo { float:none; width:45%; margin:0 1%; }
+  #menu { float:none; width:45%; margin:0 1%; }  
+  #containertwo { display:none; }
   
-  h1 { font-size:2em; }
+  
+  nav {  width:90%; margin:0 1%; height:180px;}
+  #menu li { float:none; font-size:20px; line-height:5px;}
+  #logo h1 { font-size:40px; }
+  
+  
+  h1 { font-size:20px; }
   img { max-width:40%; }
-  p { font-size:.5em;}
+  p { font-size:10px;}
+  
 }
   
 

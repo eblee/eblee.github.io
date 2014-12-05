@@ -50,7 +50,6 @@
 
 
 
-
   </head>
   <body>
 		  
@@ -68,22 +67,40 @@
 
 
 <div class="work">
-   	 <h1>
+	<h1>
   		Portfolio
-   	  </h1>
-	  
-
-		  <div class="outer">
-  			<img src="work/booklet.jpg" alt="booklet">
-  			<img src="work/recipe.jpg" alt="recipe">
+   	</h1>
+	  <div class="outer">
+		
+		<img class="d1" src="work/booklet.jpg" alt="booklet">
+		<div class="contenthover">
+		    <h2>Ten Things You Should Know About Caffeine</h2>
+		    <p>Accordian style book </p>
+		    <p><a href="#" class="mybutton">More Info</a></p>
+		</div>
+	</div>	
+		
+	<div class="outer">	
+		<img class="d1" src="work/hierarchy.jpg" alt="hierarchy">
+		<div class="contenthover">
+		    <h2>Ten Things You Should Know About Caffeine</h2>
+		    <p>Accordian style book </p>
+		    <p><a href="#" class="mybutton">More Info</a></p>
+		</div>
+	</div>
+  	
+		<div class="outer">	
+		<img src="work/recipe.jpg" alt="recipe">
+	   	   
   			<img src="work/hierarchy.jpg" alt="hierarchy">
   			<img src="work/letterform.jpg" alt="letterform">
   			<img src="work/opposites.jpg" alt="opposites">
   			 <img src="work/map.jpg" alt="map">
-		  </div>
+		 </div>
+	
 	  
 
- </div>
+</div>
 
 
 	<div id="about">
@@ -122,13 +139,22 @@
 	</div>
 		
 
-	
-
 <footer>
 	<div id="rights">
 		<p> &#0169; Esther Lee 2014 | All Rights Reserved</p>
 	</div>
 </footer>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="hover/jquery.contenthover.js"></script> 
+<script>
+$('.d1').contenthover({
+    overlay_background:'#000',
+    overlay_opacity:0.8
+});
+</script>
+
 
   </body>
 </html>
