@@ -60,7 +60,7 @@ table {
 
 
 body {
-	background-color: #151515;
+	background-color: #2B2B2B;
 	width:100%;
 	overflow-x:hidden;
 
@@ -98,7 +98,7 @@ a {
 
 
 #menu {
-	background-color: #FFFFFF;
+	background-color: #ECEBEB;
 	position:fixed;
 	width:100%;
 	height:50px;
@@ -144,7 +144,9 @@ li {
 	color: #000000;
 }
 
-#work {
+
+
+.work {
 	overflow:hidden;
 	width: 1300px;
 	height:1400px;
@@ -154,13 +156,6 @@ li {
 
 }
 
-
-#work img {
-	width: 600px;
-	height: 400px;
-	margin-left:30px;
-	margin-bottom:30px;
-}
 
 
 
@@ -204,8 +199,8 @@ li {
 #info{
 	position:absolute;
 	width:300px;
-	left:10%;
-	top:87px;
+	left:9%;
+	top:100px;
 	
 }
 
@@ -213,14 +208,15 @@ li {
 #otherinfo{
 	position:absolute;
 	width:300px;
-	left:40%;
+	left:50%;
+	top:100px;
 }
 
 #emailicon img{
 	width:50px;
 	height:50px;
 	position:absolute;
-	top:60px;
+	top:80px;
 }
 
 
@@ -228,8 +224,8 @@ li {
 	width:50px;
 	height:50px;
 	position:absolute;
-	left:40%;
-	top:90px;
+	left:41%;
+	top:80px;
 }
 
 #rights p {
@@ -246,4 +242,21 @@ li {
 	left:5%;
 	top:1880px;
 }
+
+
+
+
+.outer {
+	width:100%;
+	height:100%;
+    overflow:hidden;
+}
+
+.outer img {
+	width: 600px;
+	height: 400px;
+	margin: 0px 30px 30px 0px;
+	float:left;
+}
+
 
