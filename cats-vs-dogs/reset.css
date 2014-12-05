@@ -227,20 +227,20 @@ img {
 
 
 @media screen and (max-width:700px) {
-  #boxone { float:none; width:45%; margin:0 1%; }
-  #boxtwo { float:none; width:45%; margin:0 1%; }
-  #menu { float:none; width:45%; margin:0 1%; }  
+  #boxone { float:none; width:30%; margin:0 1%; }
+  #boxtwo { float:none; width:30%; margin:0 1%; }
+  #menu { float:none; width:30%; margin:0 1%; }  
   #containertwo { display:none; }
   
   
   nav {  width:90%; margin:0 1%; height:180px;}
   #menu li { float:none; font-size:20px; line-height:5px;}
-  #logo h1 { font-size:40px; }
+  #logo h1 { font-size:80px; }
   
   
-  h1 { font-size:20px; }
-  img { max-width:40%; }
-  p { font-size:10px;}
+  h1 { font-size:40px; }
+  img { max-width:50%; }
+  p { font-size:15px;}
   
 }
   
