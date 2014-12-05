@@ -125,7 +125,8 @@ h1 {font-family: 'league_gothicregular';
 #logo {
 	padding:5px;
 	margin:0 auto;
-	width:450px;
+	width:350px;
+	height:150px;
 
 }
 
@@ -133,12 +134,24 @@ h1 {font-family: 'league_gothicregular';
 #logo h1 {
 	font-family: 'league_gothicregular';
 	font-size:100px;
+	margin:0 auto;
+	padding:10px;
+	word-spacing:50px;
 }
 
 
-#logo h2 {
-	font-size:70px;
+
+.vs {
+	font-size:50px;
+	font-family:Georgia;
+	font-weight: bold;
+	font-style: italic;
+	color: #bdc0c4;
 }
+
+
+
+
 
 nav {
 	border-width: 5px;
@@ -233,13 +246,13 @@ img {
   #containertwo { display:none; }
   
   
-  nav {  width:90%; margin:0 1%; height:180px;}
-  #menu li { float:none; font-size:20px; line-height:5px;}
+  nav {  width:90%; margin:0 1%; height:190px;}
+  #menu li { float:none; font-size:25px; line-height:5px; }
   #logo h1 { font-size:80px; }
   
   
   h1 { font-size:40px; }
-  img { max-width:50%; }
+  img { max-width:70%; }
   p { font-size:15px;}
   
 }
