@@ -72,14 +72,20 @@ table {
 
 #site-header {
 	width:1000px;
-	margin: 0 auto;
+	margin-left: 200px;
 }
 
+
+#site-header h1 {
+	position:relative;
+	top:-100px;
+	width:200px;
+}
 
 #menu-wrapper {
 	position:absolute;
 	border-width:5px;
-	background-color:brown;
+	background-color:#75491d;
 	height:45px;
 	width:100%;
 	margin: 0 auto;
@@ -105,7 +111,7 @@ table {
 #main-menu {
     padding:5px;
 	width:1000px;
-	margin: 0 auto;
+	margin-left: 200px;
 	
 	
 }
@@ -117,7 +123,7 @@ table {
     text-transform:uppercase;
     font-family:Helvetica;
     font-size:20px;
-	margin-top:3px;
+	margin-top:10px;
 	margin-right:20px;
 
 
@@ -138,19 +144,24 @@ table {
 
 #page {
     position:absolute;
-    top:30px;
+    top:60px;
 	width:420px;
 	padding:10px;
 }
 
 #page p {
 	font-family:Helvetica;
-	font-size:14px;
+	font-size:12px;
+	line-height:16px;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 
 #page h1 {
 	font-family:Helvetica;
 	font-size:35px;
+	color: #703d0b;
+	font-weight: bold;
 }
 
 
@@ -158,13 +169,16 @@ table {
 	font-family:Helvetica;
 	font-size:20px;
 	margin-top:7px;	
-	margin-bottom:7px;	
+	margin-bottom:7px;
+	color: #703d0b;	
+	font-weight: bold;
 }
 
 
 #content-wrapper {
 	position:absolute;
 	top:200px;
+	left:200px;
 	height:620px;
 	width:1000px;
 	margin: 0 auto;
@@ -190,24 +204,27 @@ table {
 
 
 #sidebar h1 {
+	color:#703d0b;
 	font-family:Helvetica;
 	font-size:20px;
 	margin:0px 0px 4px 10px;
+	font-weight: bold;
 }
 
 #sidebar a {
 	font-family:Helvetica;
 	font-size:14px;
+	line-height:19px;
 	margin:10px;
     text-decoration: none;	
-	color:brown;
+	color:#703d0b;
 	padding:5px;
 }
 
 #footer-wrapper {
 	position:absolute;
 	width:100%;
-    background-color:brown;	
+    background-color:#885c36;	
 	top:750px;	
 	height:120px;
 	
@@ -218,6 +235,7 @@ table {
 	position:absolute;
 	width:150px;
 	margin:5px 5px;
+	left:200px;
 		
 }
 
@@ -226,6 +244,8 @@ table {
 	font-family:Helvetica;
 	font-size:18px;
 	margin:10px 0px 0px 0px;
+	color:#d5cbb2;
+	font-weight: bold;
 		
 }
 
@@ -240,13 +260,15 @@ table {
 #footer-follow {
 	position:absolute;
 	width:400px;
-	left:600px;
+	left:800px;
+	margin:5px 5px;
+	font-weight: bold;
 		
 }
 
 #footer-follow li {
     float:left;
-	margin-top:3px;
+	margin-top:5px;
 	margin-right:10px;
 	padding:5px;
 
@@ -256,6 +278,7 @@ table {
 	font-family:Helvetica;
 	font-size:18px;
 	margin:10px 0px 0px 0px;
+	color:#d5cbb2;
 		
 }
 
