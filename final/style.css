@@ -176,7 +176,7 @@ li {
  
 .photo-grid img {
 	display: block;
-	height: 400;
+	height: 400px;
 	width:600px;
 	max-width: 100%;
 }
@@ -185,7 +185,7 @@ li {
 	height: 400px;
 	overflow: hidden;
 	position: relative;
-	width: 600px;
+	width: 95%;
 }
  
 .photo-grid figcaption {
@@ -416,4 +416,22 @@ footer {
 	left:5%;
 	top:960px;
 	
+}
+
+
+@media screen and (max-width:700px) {
+  .work { float:none; width:30%; margin:0 1%; }
+  #menu { float:none; width:30%; margin:0 1%; }  
+  .photo-grid { float:none; width:80%; margin:0 1%; } 
+  #about { float:none; width:30%; margin:0 1%; } 
+  nav {  width:90%; margin:0 1%; }
+  #menu li { float:none; font-size:20px; line-height:5px; }
+  
+  #emailicon { float:none; width:30%; margin:0 1%; }   
+  #linkicon { width:20px; height:20px; } 
+  
+  h1 { font-size:20px; }
+  img { max-width:70%; }
+  p { font-size:15px; width:400px;}
+  
 }
