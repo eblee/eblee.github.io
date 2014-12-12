@@ -420,9 +420,9 @@ footer {
 
 
 @media screen and (max-width:700px) {
-  .work { float:none; width:30%; margin:0 1%; }
+  .work { float:none; width:30%; margin:0 1%;}
   #menu { float:none; width:30%; margin:0 1%; }  
-  .photo-grid { float:none; width:80%; margin:0 1%; } 
+  .photo-grid { float:none; width:70%; margin:0 1%; } 
   #about { float:none; width:30%; margin:0 1%; } 
   nav {  width:90%; margin:0 1%; }
   #menu li { float:none; font-size:20px; line-height:5px; }
@@ -432,6 +432,6 @@ footer {
   
   h1 { font-size:20px; }
   img { max-width:70%; }
-  p { font-size:15px; width:400px;}
+  p { font-size:13px; width:350px;}
   
 }
